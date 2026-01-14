@@ -1,4 +1,4 @@
-import './style.css'
+/*import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
@@ -21,4 +21,24 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)*/
+import "./task-1";
+import "./task-2";
+import "./task-3";
+import "./task-4";
+import "./task-5";
+import "./task-6";
+import "./task-7";
+import "./task-8";
+
+
+const app = document.querySelector<HTMLDivElement>("#app");
+
+if (app) {
+  app.innerHTML = `
+    <div style="padding:16px;font-family:system-ui">
+      <h1>01-ts-basics</h1>
+      <p>Open DevTools → Console to see task results</p>
+    </div>
+  `;
+}
